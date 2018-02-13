@@ -1,14 +1,14 @@
 {
-  "name": "hexo-deployer-ftpsync",
+  "name": "hexo-deployer-vftpsync",
   "version": "0.1.1",
-  "description": "FTP deployer for Hexo",
+  "description": "FTP deployer for Hexo, use vinyl-ftp",
   "main": "index",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hexojs/hexo-deployer-ftpsync.git"
+    "url": "https://github.com/noteon/hexo-deployer-ftpsync.git"
   },
   "bugs": {
-    "url": "https://github.com/hexojs/hexo-deployer-ftpsync/issues"
+    "url": "https://github.com/noteon/hexo-deployer-ftpsync/issues"
   },
   "keywords": [
     "hexo",
@@ -23,6 +23,6 @@
     "url": "https://raw.github.com/tommy351/hexo/master/LICENSE"
   },
   "dependencies": {
-    "ftpsync": "^0.1.5"
+    "vinyl-fs": "^3.0.2"
   }
 }
